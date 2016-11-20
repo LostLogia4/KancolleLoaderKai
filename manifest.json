@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "KancolleLoader+",
+    "version": "0.00",
+    "background": {
+        "persistent": true,
+        "scripts": ["main.js"]
+    },
+    "permissions": [
+        "cookies",
+        "webRequest",
+        "*://*.dmm.com/*"
+    ]
+}
